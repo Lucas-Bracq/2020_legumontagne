@@ -1,0 +1,86 @@
+header{
+}
+
+.bg_photo {
+  a{
+    display: flex;
+    color: white;
+  }
+}
+
+.divHead{
+    display: flex;
+    justify-content: space-between;
+    div{
+      display: flex;
+    }
+    a{
+      padding: 10px;
+      display: flex;
+      color: white;
+    }
+}
+
+#h1{
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.imgHead{
+  align-content: space-between;
+  justify-content: space-between;
+  div{
+    width: 50%;
+  }
+}
+
+.inner{
+  margin: 0 auto;
+}
+.cadre_menu{
+  a{
+    color: black;
+    line-height: 60px;
+    height: 60px;
+  }
+  text-align: center;
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.AB{
+  width: 150px;
+}
+
+.row{
+  display: flex;
+}
+
+.GNews{
+  display: flex;
+  flex-direction: column;
+}
+
+.news {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  div {
+    width: 40%;
+    padding: 10px;
+  }
+  h2{
+    font-size: 2em;
+  }
+  flex-direction: row;
+}
+
+.texte_actu{
+  font-size: 1.75em;
+  text-align: left;
+  line-height: 100%;
+  height: 100%;
+}

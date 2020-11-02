@@ -69,7 +69,7 @@ function jsBabel() {
  */
 function watcherSass() {
 	watch('css/**/*.scss', { ignoreInitial: false }, sass).on('change', function() {
-		notify('CSS -> SCSS ==> OK').write('');
+		notify('css -> SCSS ==> OK').write('');
 	});
 }
 

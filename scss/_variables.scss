@@ -1,0 +1,19 @@
+$green : #516a2e;
+$yellow: #f6ca06;
+
+@font-face {
+  font-family: 'Vegur';
+  src: url('fonts/Vegur-Regular-webfont.woff') format('woff');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'VegurBold';
+  src : url('fonts/Vegur-Bold-webfont.woff');
+  font-weight: bold;
+}
+
+body { font-family: Vegur; }
+
+.bg_photo{
+  color: white;
+}
